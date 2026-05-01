@@ -1,5 +1,5 @@
 # KỊCH BẢN CHI TIẾT - LAB 1 - Intro2ML
-Dưới đây là kịch bản chi tiết cho video cho Lab 1 đồ án môn Nhập môn học máy. Dựa trên series bài giảng xxx được trình bày trong hội nghị ABC - một trong các hội nghị về AI hàng đầu thế giới.
+Dưới đây là kịch bản chi tiết cho video cho Lab 1 đồ án môn Nhập môn học máy. Dựa trên series bài giảng xxx được trình bày trong hội nghị **ICML** - một trong các hội nghị về AI hàng đầu thế giới.
 Kịch bản được chia làm 6 phần:
 * Phần mở đầu  (0:00 - 2:40)
 * Phần 1 - Không gian và Đa tạp (2:40 - 8:35)
@@ -10,22 +10,22 @@ Kịch bản được chia làm 6 phần:
 ---
 ## PHẦN MỞ ĐẦU (0:00 - 2:40)
 **Nhân sự A (Voice):** Đọc chậm, rành mạch. Giọng trầm ấm mang tính tự sự, giống như đang kể một câu chuyện vũ trụ.
-#### Phân cảnh 0.1: Nghịch lý của Tự nhiên 
+### Phân cảnh 0.1: Nghịch lý của Tự nhiên 
 *  **[0:00 - 0:05] `[Nhạc nền]`**: Bắt đầu bằng một nốt piano trầm, có độ vang (reverb) dài.
 *  **[0:05 - 0:30] Audio (A):** "Trong vũ trụ của chúng ta, có một định luật tàn nhẫn và không thể đảo ngược... Định luật thứ hai của Nhiệt động lực học. Mọi thứ tự nhiên đều có xu hướng phân rã. Một giọt mực nhỏ vào ly nước... sẽ vĩnh viễn loang ra. Sự hỗn loạn – hay Entropy – luôn luôn tăng lên."
 *  **[0:30 - 0:40] Audio (A):** "Thời gian... `[Nghỉ 2 giây]` ...chỉ chảy theo một hướng."
 *  **Action Plan Hình ảnh (Team C & B):**
 *  **C (Editor):** Dùng Video Stock có sẵn (Pexels gõ: "ink drop in water black background"). Cắt đoạn mực đang từ từ nở bung ra. Không cần code Manim gì ở đây cả. Video full màn hình.
-#### Phân cảnh 0.2: Sự thách thức của AI 
+### Phân cảnh 0.2: Sự thách thức của AI 
 *  **[0:40 - 0:50] `[Nhạc nền]`**: Đổi nhịp điệu. Tiếng âm thanh "Whoosh" (tua ngược) vang lên.
-*  **[0:50 - 1:10] Audio (A):** "Nhưng... điều gì sẽ xảy ra nếu một cỗ máy có thể học cách đảo ngược mũi tên thời gian đó? Nếu nó có thể nhìn vào sự hỗn loạn tuyệt đối, vô nghĩa... và rút ra từ đó một kiệt tác?"
+*  **[0:50 - 1:10] Audio (A):** "Nhưng... điều gì sẽ xảy ra nếu một cỗ máy có thể học cách đảo ngược mũi tên thời gian đó? Điều gì sẽ xảy ra nếu nó có thể nhìn vào sự hỗn loạn tuyệt đối, vô nghĩa... và rút ra từ đó một kiệt tác?"
 *  **[1:10 - 1:30] Audio (A):** "Đây không phải là một thí nghiệm tưởng tượng. Nó chính là cốt lõi của những mô hình Trí tuệ Nhân tạo vĩ đại nhất trong thập kỷ này... Diffusion Models."
 *  **[1:30 - 1:45] `[Nghỉ 4 giây]`** -> Để hình ảnh tạo hiệu ứng thị giác mạnh.
 *  **Action Plan Hình ảnh (Team C & B):**
 *  **C (Editor):** Đảo ngược (Reverse) cái video giọt mực lúc nãy, làm cho mực đang loang lổ bỗng co cụm lại thành một giọt hoàn hảo.
 *  **B (Manim):** Sinh ra một bức ảnh nhiễu (Gaussian Noise - hình hạt mè trắng đen).
 *  **C (Editor):** Ghép bức ảnh nhiễu của B vào giữa màn hình. Dùng hiệu ứng Cross-Dissolve trong Premiere để ảnh nhiễu đó mờ dần, lộ ra một bức chân dung sắc nét (ví dụ: Mona Lisa hoặc ảnh Midjourney).
-#### Phân cảnh 0.3: Hiện tượng Tái lập - Câu hỏi mồi (1:45 - 3:00)
+### Phân cảnh 0.3: Hiện tượng Tái lập - Câu hỏi mồi (1:45 - 3:00)
 *  **[1:45 - 2:10] Audio (A):** "Nhiều người nghĩ, khi AI sinh ra một bức ảnh, nó chỉ đang gieo một viên xúc xắc khổng lồ. Rằng mọi thứ chỉ là ngẫu nhiên. Nhưng không phải vậy. Các nhà nghiên cứu đã phát hiện ra một sự thật chấn động."
 *  **[2:10 - 2:25] Audio (A):** "Nếu bạn lấy hai mô hình AI hoàn toàn khác nhau... bắt chúng xuất phát từ cùng một điểm nhiễu loạn... chúng sẽ đi xuyên qua sự hỗn độn, và tạo ra hai bức ảnh gần như y hệt nhau."
 *  **[2:25 - 2:40] Audio (A):** "Làm sao hai cỗ máy mù tịt có thể băng qua một biển nhiễu loạn và gặp nhau tại đúng một điểm? Lời giải thích duy nhất là... chúng không hề tung đồng xu. Chúng đã tìm ra một bản đồ hình học ẩn của vũ trụ."
@@ -84,6 +84,12 @@ Kịch bản được chia làm 6 phần:
 *  **B (Manim):** Từ 10 điểm trắng ban đầu, đột nhiên hàng ngàn điểm trắng khác xuất hiện dày đặc (`FadeIn` animation), xếp thành một hình dạng uốn lượn liên tục (chính là dải lụa Manifold ở phần 1.4).
 * Lặp lại thí nghiệm: Thả điểm màu đỏ vào. Lần này, điểm đỏ không bay đường thẳng thô kệch nữa. Nó trượt theo một đường cong cực kỳ mượt mà (`ParametricFunction`), đáp xuống một vị trí *nằm trên dải lụa* nhưng *không trùng* với bất kỳ điểm dữ liệu gốc nào.
 * Chữ "Generalization" (Tổng quát hóa) hiện lên rực rỡ và phát sáng.
+
+Chào bạn, người đồng đội! Để hoàn thiện bức tranh về **Lecture I**, chúng ta cần làm rõ hai yếu tố cực kỳ quan trọng: **Làm sao để "đo lường" sự tổng quát hóa** và **Quyền năng thực tiễn của Đa tạp ít chiều**. Kịch bản gốc đã làm rất tốt việc mô tả *hiện tượng*, nhưng chúng ta cần thêm các *bằng chứng toán học* và *ứng dụng* để bài Lab thực sự có sức nặng.
+
+Bạn có thể chèn hai phân cảnh mở rộng này ngay sau **Phân cảnh 1.5 (Lằn ranh của sự thấu hiểu)**, tạo thành phần kết hoàn hảo cho **PHẦN 1** trước khi bước sang Phần 2.
+
+Dưới đây là kịch bản chi tiết:
 
 
 ### Phân cảnh 1.6: Thước đo của sự thông thái và Bất ngờ "Giảm Kép"
