@@ -11,7 +11,6 @@ Kịch bản được chia làm 3 phần:
 
 ### Scene 1: Lời ngỏ và Hiện tượng Tái tạo (0:00 - 1:05)
 **Mục tiêu:** Đặt vấn đề bằng một hiện tượng trực quan gây tò mò.
-**Thời lượng:** 90 giây (khoảng 160 từ).
 
 * **[0:00 - 0:15] Manim Visual:** Màn hình đen (`Scene`). Dùng `ImageMobject` kết hợp `Noise` shader để tạo ra một mảng nhiễu Gaussian $x_T$. Dùng `VGroup` nhân bản mảng nhiễu này thành 3 bản giống hệt nhau, trượt về 3 góc màn hình bằng `ApplyMethod`.
 * **[0:15 - 0:35] Manim Visual:** Vẽ 3 `SurroundingRectangle` đại diện cho 3 kiến trúc mạng: U-Net, DiT, và EDM. Từ từ `FadeIn` kết quả đầu ra: cả 3 mạng giải nhiễu mảng nhiễu ban đầu thành 3 bức ảnh hoàn toàn trùng khớp (ví dụ: ảnh một khuôn mặt).
@@ -28,11 +27,9 @@ Trong giới nghiên cứu, điều này được gọi là hiện tượng tái
 
 ### Scene 2: Thước đo Định lượng và Nghịch lý Hai trạng thái (1:05 - 2:20)
 *Mục tiêu: Đưa toán học vào đo lường hiện tượng (SSCD, Cosine Similarity) và bóc tách ranh giới giữa Học vẹt (Memorization) và Khái quát hóa (Generalization).*
-*Thời lượng: 90 giây (khoảng 175 từ).*
 
 **[1:05 - 1:30] Manim Visual:** Từ 3 bức ảnh trùng khớp ở Scene 1, giữ lại 2 ảnh ($x_1, x_2$). Dùng `Transform` biến một khối hộp lưới (đại diện cho mạng CNN trích xuất đặc trưng - SSCD) hút 2 bức ảnh này vào. Ở đầu ra, hiện hai hệ vector $h(x_1)$ và $h(x_2)$ phát sáng lơ lửng.
 Dùng `MathTex` hiện công thức Cosine Similarity:
-
 
 $$\mathcal{M}_{SSCD}(x_1, x_2) := \frac{|\langle h(x_1), h(x_2) \rangle|}{||h(x_1)||_2 \cdot ||h(x_2)||_2}$$
 
@@ -106,7 +103,7 @@ Sự tương đương này dẫn đến một hiện tượng chuyển pha vật
 
 ---
 
-### Scene 6: Quyền năng của Ma trận $U$ – Từ Chỉnh sửa đến Bảo mật (6:05 - 7:20)**
+### Scene 6: Quyền năng của Ma trận $U$ – Từ Chỉnh sửa đến Bảo mật (6:05 - 7:20)
 *Mục tiêu: Trình bày ứng dụng của ma trận không gian con (LOCO Edit) và không gian bù (Watermarking).*
 *Thời lượng: 90 giây (khoảng 170 từ).*
 
@@ -129,7 +126,6 @@ Lý thuyết không gian con, vì thế, đã biến quá trình khuếch tán t
 
 ### Scene 7: Định lượng qua Probability Flow Distance (7:20 - 8:25)
 **Mục tiêu:** Giới thiệu PFD làm thước đo.
-**Thời lượng:** 90 giây (khoảng 160 từ).
 
 * **[7:20 - 7:40] Manim Visual:** Chia đôi màn hình. Nửa trái: Mô hình Teacher (đại diện $p_{\theta^*}$). Nửa phải: Mô hình Student (đại diện $p_\theta$).
 * **[7:40 - 8:05] Manim Visual:** Vẽ 2 quỹ đạo đường cong (ODE trajectory) chạy song song từ cùng một mảng nhiễu $x_T$ về tâm. 
