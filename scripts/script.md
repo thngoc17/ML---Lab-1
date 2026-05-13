@@ -52,7 +52,6 @@ Tuy nhiên, khi lượng dữ liệu đủ lớn tiến vào vùng bên phải, 
 
 ### Scene 3: La bàn trong không gian nhiễu (2:20 - 3:35)
 **Mục tiêu:** Nhắc lại toán học cốt lõi (SDE, ODE, Score function).
-**Thời lượng:** 90 giây (khoảng 170 từ).
 
 * **[2:20 - 2:45] Manim Visual:** Xóa cảnh cũ. Đặt một `Dot` đại diện cho $x_0$. Dùng một `ValueTracker` kết hợp `TracedPath` để vẽ một quỹ đạo chuyển động Brown hỗn loạn (Forward process) biến $x_0$ thành $x_T$. Dùng `MathTex` hiện phương trình: $dx = f(x,t)dt + g(t)dw$.
 * **[2:45 - 3:10] Manim Visual:** Dùng `TransformMatchingTex` biến đổi mượt mà SDE thuận thành ODE lùi (Probability Flow ODE). Giữ nguyên các ký tự chung để tạo sự liên kết thị giác:
@@ -68,7 +67,6 @@ Mục tiêu duy nhất của mạng nơ-ron là xấp xỉ chiếc la bàn này.
 
 ### Scene 4: Phước lành của cấu trúc chiều thấp (3:35 - 4:45)
 **Mục tiêu:** Đưa ra giả định MoLRG để giải quyết Curse of Dimensionality.
-**Thời lượng:** 90 giây (khoảng 165 từ).
 
 * **[3:35 - 3:55] Manim Visual:** Dùng `ThreeDAxes` xoay một không gian 3D rộng lớn. Rải vài `Dot3D` lơ lửng, cách xa nhau. Hiện chữ "Curse of Dimensionality".
 * **[3:55 - 4:20] Manim Visual:** Camera xoay góc. Bất ngờ hiện ra một `ParametricSurface` 2D mỏng manh đi qua tất cả các điểm đó. Các điểm này thực chất nằm trọn trên mặt phẳng này. Hiện chữ "Intrinsic Dimension $r \ll d$".
